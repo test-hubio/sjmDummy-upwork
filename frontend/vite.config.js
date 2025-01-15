@@ -5,9 +5,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    port: process.env.PORT || 3000
+    port: import.meta.env.PORT || 3000
   },
   define: {
-    'process.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL)
+    'process.env.VITE_API_URL': JSON.stringify(import.meta.env.VITE_API_URL)
   }
 });
