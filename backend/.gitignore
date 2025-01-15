@@ -33,3 +33,19 @@ coverage/
 # Temp files
 *.tmp
 *.temp
+
+# Secrets and Configurations
+*.pem
+*.key
+config.json
+secrets.json
+*_rsa
+*_dsa
+*.der
+*.csr
+*.crt
+credentials.json
+secret.yml
+secret.yaml
+.env.*
+auth.json
